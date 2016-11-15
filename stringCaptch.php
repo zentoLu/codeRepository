@@ -2,7 +2,6 @@
 	
 	session_start();
 	
-
 	$image = imagecreatetruecolor(100, 30);
 	$bgcolor = imagecolorallocate($image, 255, 255, 255);
 	imagefill( $image, 0 , 0 , $bgcolor);
